@@ -1,8 +1,6 @@
 body {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "Raleway", "Roboto" sans-serif;
+
 }
 
 ul,
@@ -10,7 +8,35 @@ ol {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .team {
     background-color: rgba(244, 244, 253, 1);
+}
+
+.hero {
+    background-color: rgba(46, 47, 66, 1);
+    ;
+}
+
+.hero-title {
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.hero-button {
+    background-color: rgba(77, 90, 229, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+
+.footer {
+    background-color: rgba(46, 47, 66, 1);
+    color: rgba(244, 244, 253, 1);
 }
