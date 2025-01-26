@@ -10,8 +10,15 @@ ol {
 
 a {
     text-decoration: none;
+    color: #2E2F42;
 }
 
+a:hover,
+a:focus {
+    color: #404BBF;
+    outline: none;
+    text-decoration: underline;
+}
 
 .team {
     background-color: rgba(244, 244, 253, 1);
@@ -31,12 +38,26 @@ a {
 }
 
 .hero-button {
-    background-color: rgba(77, 90, 229, 1);
+    background-color: #4D5AE5;
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
+}
+
+.hero-button:focus,
+.hero-button:hover,
+.hero-button:active {
+    background-color: #404BBF;
 }
 
 .footer {
     background-color: rgba(46, 47, 66, 1);
     color: rgba(244, 244, 253, 1);
+}
+
+.footer .logo {
+    color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
