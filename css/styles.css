@@ -21,6 +21,25 @@ a:focus {
     text-decoration: underline;
 }
 
+.logo {
+    font-family: "Releway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+
+.logo_secondary {
+    color: #2E2F42;
+}
+
+.footer .logo_secondary {
+    color: #F4F4FD;
+}
+
 .team {
     background-color: rgba(244, 244, 253, 1);
 }
@@ -55,9 +74,7 @@ a:focus {
     color: rgba(244, 244, 253, 1);
 }
 
-.footer .logo {
-    color: #F4F4FD;
-}
+
 
 .team-list-item {
     background-color: #FFFFFF;
